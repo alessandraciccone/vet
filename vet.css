@@ -1,0 +1,28 @@
+h1 {
+    font-size: 2em;
+    margin-top: 2em;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media screen and (min-width:1200px) {
+    main {
+        min-height: 500px;
+        flex-grow: 1
+    }
+}
+
+hr {
+    width: 600px;
+    /* accorcia la linea */
+    border: none;
+    border-top: 2px solid #feffff;
+    /* cambia colore (azzurro Bootstrap info) */
+    margin: 20px auto;
+}
+
+.btn {
+    background-color: rgb(74, 230, 74);
+}
