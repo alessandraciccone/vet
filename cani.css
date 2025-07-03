@@ -1,7 +1,4 @@
-body {
-    background-image: url(./img/sfondo.jpg);
-    background-size: cover;
-}
+
 
 @media screen and (min-width:992px) {
     main {
@@ -16,8 +13,28 @@ body {
 
 .carousel-inner{
 
-width: 300px;
-
-height: 200px;}
-
+  width: 600px;
+  height: 400px;
+  margin: auto; /* per centrare */
 }
+
+
+#myCarousel.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+}
+
+#carouselExampleCaptions {
+  width: 700px;       /* o qualunque larghezza desideri */
+  height: 400px;      /* altezza personalizzata */
+  margin: 0 auto;     /* per centrare */
+}
+
+#carouselExampleCaptions .carousel-inner,
+#carouselExampleCaptions .carousel-item,
+#carouselExampleCaptions .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  }
