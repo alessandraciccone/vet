@@ -78,8 +78,10 @@ h1:hover {
 
 hr {
     width: 600px;
+    /* accorcia la linea */
     border: none;
     border-top: 2px solid #feffff;
+    /* cambia colore (azzurro Bootstrap info) */
     margin: 20px auto;
 }
 
