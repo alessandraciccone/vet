@@ -1,0 +1,113 @@
+@media screen and (min-width:992px) {
+    main {
+        min-height: 500px;
+        flex-grow: 1
+    }
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 2em;
+    color: rgb(171, 126, 213);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.h {
+    background-color: transparent;
+}
+
+
+@media screen and (min-width: 992px) {
+    h1 {
+        font-size: 3em;
+        margin-top: 2em;
+    }
+
+}
+
+hr {
+    width: 600px;
+    /* accorcia la linea */
+    border: none;
+    border-top: 2px solid #feffff;
+    /* cambia colore (azzurro Bootstrap info) */
+    margin: 20px auto;
+}
+
+
+
+.card {
+    background-color: transparent;
+    border: none;
+    margin: 20px auto;
+}
+
+body {
+    background-image: url(./img/sfondo.jpg);
+    background-size: cover;
+}
+
+.btn:hover {
+    background-color: rgb(255, 220, 82);
+}
+
+h1:hover {
+    animation: bounce 0.6s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    70% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.logo {
+
+    cursor: pointer;
+}
+
+.logo:hover {
+    animation: bounce 0.6s;
+}
+
+/* Effetto di rimbalzo */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    70% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
